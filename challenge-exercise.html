@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .link{
+            color: rgb(0,113,133);
+            cursor: pointer;
+            transition: color 0.25s;
+        }
+        .link:hover,.link:active{
+            color: rgb(255,164,28);
+        }
+        .stock{
+            color: rgb(0,118,0);
+        }
+        .free{
+            font-size: 20px;
+            font-weight: lighter;
+        }
+        .cart{
+            background-color: rgb(255,216,20);
+            border: none;
+            border-radius: 15px;
+            height: 28px;
+            width: 115px;
+            margin-right: 10px;
+            transition: opacity 0.35s;
+        }
+        .cart:hover{
+            background-color: rgb(214, 180, 8);
+        }
+        .cart:active{
+            opacity: 0.5;
+        }
+        .buy{
+            background-color: rgb(255,164,28);
+            border: none;
+            border-radius: 15px;
+            height: 28px;
+            width: 115px;
+            transition: opacity 0.35s;
+        }
+        .buy:hover{
+            background-color: rgb(230, 141, 7);
+        }
+        .buy:active{
+            opacity: 0.5;;
+        }
+    </style>
+</head>
+<body>
+    <div class="link">
+        <a href="https://www.amazon.com/s?k=nike+black+running+shoes&crid=8PKNEZSHZZAR&sprefix=nike+black+running+shoes%2Caps%2C777&ref=nb_sb_noss_1">Back to Amazon</a>
+    </div>
+    <div>
+        <h1>Nike Black Running Shoes</h1>
+    </div>
+    <div>
+        <h3 class="stock">$39-in stock</h3>
+    </div>
+    <div>
+        <h3 class="free">Free delivery tomorrow</h3>
+    </div>
+    <button class="cart">Add to Cart</button>
+    <button class="buy">Buy now</button>
+</body>
+</html>
